@@ -62,8 +62,8 @@ heroku config:set NPM_CONFIG_PRODUCTION=false
 
 ## Using the latest source code
 
-The `zeke/npm` buildpack from the [Heroku Buildpack Registry](https://devcenter.heroku.com/articles/buildpack-registry) represents the latest stable version of the buildpack. If you'd like to use the source code from this Github repository, you can set your buildpack to the Github URL:
+The `theorylabs/npm` buildpack from the [Heroku Buildpack Registry](https://devcenter.heroku.com/articles/buildpack-registry) represents the latest stable version of the buildpack. If you'd like to use the source code from this Github repository, you can set your buildpack to the Github URL:
 
 ```sh-session
-$ heroku buildpacks:set https://github.com/nice-registry/npm-buildpack
+$ heroku buildpacks:set https://github.com/theorylabs/npm-buildpack
 ```

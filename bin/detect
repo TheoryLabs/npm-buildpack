@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "theorylabs/npm-buildpack"
+exit 0
